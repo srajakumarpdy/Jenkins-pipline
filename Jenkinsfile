@@ -2,10 +2,9 @@ pipeline{
 	agent any
 	
 	stages{
-		stage ('Compile Stage') {
+		stage ('Build') {
 			steps{
-				withMaven(maven : 'maven_3_5_0') {
-					sh 'mvn clean compile'
+				echo "Hello World"
 				}
 			}
 		}
