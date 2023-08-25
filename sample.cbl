@@ -25,7 +25,10 @@ IDENTIFICATION DIVISION.
                  DISPLAY 'IT IS NOT MAX'
               END-IF
               IF NUM(IDX) < MAX
-                 DISPLAY 'New Block from Feature2'
+                 DISPLAY 'New Block from Feature1'
               END-IF
+              IF NUM(IDX) < MAX
+                 DISPLAY 'New Block from Feature2'
+              END-IF 
            END-PERFORM.                                               
            DISPLAY MAX. 
