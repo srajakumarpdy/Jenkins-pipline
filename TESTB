@@ -27,9 +27,9 @@ IDENTIFICATION DIVISION.
               IF NUM(IDX) < MAX
                  DISPLAY 'New Block from Feature1'
               END-IF
-              IF NUM(IDX) < MAX
-                 DISPLAY 'New Block from Feature2'
-              END-IF 
+       *       IF NUM(IDX) < MAX
+       *          DISPLAY 'New Block from Feature2'
+       *       END-IF 
               IF NUM(IDX) < MAX
                  DISPLAY 'New Block from Feature2 without develop changes'
               END-IF
