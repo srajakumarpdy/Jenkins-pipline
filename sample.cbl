@@ -4,9 +4,9 @@ IDENTIFICATION DIVISION.
        DATA DIVISION.                                                 
        WORKING-STORAGE SECTION.                                       
        01 MAX-NUM.                                                    
-           05 NUM        PIC 9(2) OCCURS 5 TIMES.                     
-       77 IDX            PIC 9(2) VALUE 1.                            
-       77 MAX            PIC 9(2) VALUE 0.                            
+           05 NUM                       PIC 9(2) OCCURS 5 TIMES.                     
+       77 IDX                           PIC 9(2) VALUE 1.                            
+       77 MAX                           PIC 9(2) VALUE 0.                            
        PROCEDURE DIVISION.                                            
        MAIN-PARA.                                                     
            PERFORM ACCEPT-PARA.                                       
